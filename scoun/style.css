@@ -1,0 +1,398 @@
+/*
+Theme Name: Scoun
+Theme URI: http://ml.pe/
+Description: Feel free to modify my theme in any way you'd like.<br />The only thing i ask for is that you keep my link at the bottom,<br />and that you don't rerelease it as your own (modified) theme,<br />for bbPress or anything else. I'll handle that myself.<br /><br />Should you come across some layout mistakes, please don't<br />hesitate to contact me about it. :)<br /><br />Happy cats and kind regards,<br />Mike Lothar.
+Version: - Version 2 -
+Author: Mike Lothar
+Author URI: http://ml.pe/
+*/
+
+html, body {
+	height: 100%;
+}
+*, table, td {margin: 0; padding: 0;}
+a {
+	color: #9d0a0e;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px dotted #9d0a0e;
+	text-decoration: none;
+}
+.black a {
+	color: white;
+}
+.black a:hover {
+	border-bottom: 1px dotted white;
+}
+#wrapper #header img, #wrapper #header a:hover, #wrapper #header {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: 250px;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 10px 0 0;
+}
+body {
+	background: #898989 url('images/bg_body.jpg') repeat-x left top fixed;
+	font: 10px/13px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	text-align: center;
+}
+#wrapper {
+	margin: 10px auto;
+	width: 750px;
+	background: white;
+}
+textarea, input, submit, select {
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+
+
+
+/*
+	BLACK
+	--------------------
+*/
+.black {
+	background: black;
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+.no_border {
+	border: 0;
+}
+.black .left {text-align: left; padding: 0 20px;}
+.black .text {
+	color: white;
+	padding-top: 13px;
+	padding-bottom: 14px;
+}
+.black .big_text {
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+
+
+
+/*
+	WHITE
+	------------------------------
+*/
+.white {
+	background: white;
+	width: 100%;
+}
+h2.post-form {
+	background: white;
+}
+.white .left, h2.post-form {text-align: left; padding: 0 20px;}
+.white .big_text, h2.post-form {
+	color: #9d0a0e;
+	padding-top: 9px;
+	padding-bottom: 12px;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 17px;
+	font-weight: bold;
+}
+.white a, h2.post-form a {
+	color: #9d0a0e;
+}
+.white .big_text a:hover, h2.post-form a:hover {
+	color: #9d0a0e;
+	border-bottom: 1px dotted #9d0a0e;
+}
+.white a:hover, h2.post-form a:hover {
+	border: 0;
+}
+
+
+
+
+
+/*
+	CONTENT
+	--------------------
+*/
+.minheight {
+	height: 100px;
+}
+.content {
+	background: #e1e1e1;
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+.content .hover:hover, .yeshover {
+	background: #e1e1e1 url('images/bg_hover.jpg') repeat-y right top;
+}
+.nohover {
+	background: #e1e1e1;
+}
+.content .watcher {
+	width: 20px;
+	vertical-align: top;
+	padding-top: 6px;
+	font-size: 1px;
+	line-height: 1px;
+}
+.content .watcher img {
+	height: 21px;
+}
+.content .title {
+	font: bold 11px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #111;
+}
+.content .title a {
+	color: #111;
+}
+.content .title a:hover {
+	color: #111;
+	border-bottom: 1px dotted #111;
+}
+.content .text {
+	font: 11px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #252525;
+	padding: 9px 20px 5px 0;
+	text-align: left;
+	vertical-align: top;
+}
+.content .text p {
+	padding-bottom: 6px;
+}
+.content .text .shadedlink a {
+	margin-right: 7px;
+	line-height: 22px;
+}
+.content .nest {
+	margin-left: 9px;
+}
+.content .text textarea {
+	width: 500px;
+	height: 160px;
+}
+.content #tags-input, .content #topic, .content #tag {
+	width: 250px;
+	margin: 5px 0;
+}
+
+.content .smalltext {
+	font: 10px/13px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #252525;
+	padding: 9px 20px 11px 0;
+}
+.content .extra {
+	font: 10px/12px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #777;
+	padding-top: 1px;
+}
+.content .extra a {
+	color: #777;
+}
+.content .extra a:hover {
+	border-bottom: 1px dotted #252525;
+	color: #252525;
+}
+.content .info_top {
+	padding: 9px 15px 0 0;
+	background: #d7d7d7;
+	text-align: right;
+	vertical-align: top;
+}
+.content .info_top .avatar {
+	margin: 0 0 0 auto;
+}
+.content .info_top .avatar td {
+	text-align: right;
+	border: 1px solid #ccc;
+	padding: 4px;
+	background: white;
+}
+.content .info {
+	font: 10px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	width: 200px;
+	vertical-align: bottom;
+	text-align: right;
+	padding: 9px 20px 11px 0;
+	background: #d7d7d7;
+	color: #777;
+}
+.content .info a, .content .text .shadedlink a {
+	color: #777;
+}
+.content .info_light {
+	font: 10px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	width: 190px;
+	vertical-align: top;
+	text-align: left;
+	padding: 9px 20px 11px 0;
+	background: #e1e1e1;
+	color: #777;
+}
+
+.content .info_light a {
+	color: #777;
+}
+
+.content .info_light a:hover {
+	border-bottom: 1px dotted #252525;
+	color: #252525;
+}
+
+.content .hidden_left {
+	text-align: left;
+	font: 10px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	vertical-align: top;
+	padding: 14px 10px 11px 20px;
+	background: #d7d7d7;
+	color: #777;
+}
+.content .hidden_right {
+	text-align: right;
+	width: 200px;
+	font: 10px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	vertical-align: bottom;
+	padding: 0 20px 11px 0;
+	background: #d7d7d7;
+	color: #777;
+}
+.icons_under_text {
+	padding: 0 12px 0 0;
+}
+.icons_under_text a:hover {
+	border: 0;
+}
+.content .attachment {
+	background: #fdfdfd;
+	padding: 7px;
+	border: 1px solid #d1d1d1;
+	margin: 10px 0 5px;
+}
+.content .comment {
+	margin: 6px 3px 0;
+}
+.content .details {
+	margin: 6px 3px 0;
+	font: 10px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+}
+.content .tags a {
+	color: #777;
+	line-height: 24px;
+	padding-right: 2px;
+}
+
+.content .tags a:hover {
+	color: #252525;
+	border-bottom: 1px dotted #252525;
+}
+
+#userinfo dt {
+	font-weight: bold;
+}
+#userinfo dd {
+	margin-bottom: 5px;
+}
+#admininfo th, #userinfo th, .userinfo th {
+	padding-right: 20px;
+}
+#admininfo td, #admininfo th, #userinfo td, #userinfo th, .userinfo th, .userinfo td {
+	padding-bottom: 7px;
+}
+
+ul#manage-tags {
+	margin-bottom: 20px;
+}
+ul#manage-tags li div {
+	padding-bottom: 7px;
+}
+
+
+/*
+	RED
+	------------------------------
+*/
+.red {
+	background: #9d0a0e;
+	width: 100%;
+}
+.red .left {text-align: left; padding: 0 20px;}
+.red .right {text-align: right; padding: 0 20px 0 0;}
+.red .text {
+	color: black;
+	padding-top: 12px;
+	padding-bottom: 14px;
+	font: 10px/13px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+.red a {
+	color: black;
+}
+.red .text a:hover {
+	color: black;
+	border-bottom: 1px dotted black;
+}
+.red a:hover {
+	border: 0;
+}
+.red .corner_left {
+	background: #9d0a0e url('images/bottom_corner_left.gif') no-repeat left bottom;
+}
+.red .corner_right {
+	background: #9d0a0e url('images/bottom_corner_right.gif') no-repeat right bottom;
+	width: 12px;
+}
+
+
+
+
+/*
+	RANDOM
+	------------------------------
+*/
+h2.post-form {display: none;}
+
+p {
+	font: 11px/14px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #252525;
+	padding: 9px 20px 11px 20px;
+	text-align: left;
+	vertical-align: top;
+	background: #e1e1e1;
+}
+.content p {
+	background: none;
+	padding: 0;
+}
+
+pre {
+	margin: 9px;
+	padding: 3px 30px 11px 15px;
+	background: white;
+}
+
+.content .text blockquote p {
+	padding: 3px 30px 11px 15px;
+	color: #454545;
+	font-style: italic;
+}
+
+fieldset {border: 0;}
+
+img.avatar {
+	margin: 10px 10px 10px 0;
+	border: none;
+}
+.ml_avatar a:hover {
+	border: none;
+	text-decoration: none;
+}
